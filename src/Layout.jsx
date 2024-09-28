@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar'
 const Layout = () => {
     return (
         <>
-            <div className='bg-gray-300 min-h-[100vh]'>
+            <div className='bg-white min-h-[100vh]'>
                 <Navbar />
                 <Outlet />
             </div>

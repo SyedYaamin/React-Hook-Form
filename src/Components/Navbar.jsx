@@ -19,6 +19,7 @@ const Navbar = () => {
             }
             else {
                 setIsUser(false);
+                navigate("/login");
             }
         });
     }, [navigate]);
